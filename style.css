@@ -159,32 +159,29 @@ display: inline-block;
     .letter-window {
         width: 95vw;
         max-width: none;
-        aspect-ratio: auto;
+        aspect-ratio: 3/2;
         height: auto;
-        min-height: 80vh;
         padding: 20px;
-        padding-top: 15vh;
-        background-size: 100% 100%;
+        padding-top: 10%;
+        background-size: contain;
         box-sizing: border-box;
     }
 
     h1 {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     p {
-        font-size: 24px;
+        font-size: 20px;
         margin: 5px 0;
     }
 
     .cat {
-        width: 35vw;
-        max-width: 150px;
+        width: 100px;
     }
 
     .letter-window.final .cat {
-        width: 30vw;
-        max-width: 120px;
+        width: 80px;
     }
 
     .buttons {
@@ -194,11 +191,11 @@ display: inline-block;
     .btn,
     .yes-btn,
     .no-btn {
-        width: 80px;
+        width: 70px;
     }
 
     .final-text {
-        font-size: 16px;
+        font-size: 14px;
         padding: 8px 15px;
     }
 }
@@ -214,30 +211,27 @@ display: inline-block;
     }
 
     .letter-window {
-        width: 100vw;
-        min-height: 85vh;
+        width: 98vw;
+        aspect-ratio: 3/2;
         padding: 15px;
-        padding-top: 12vh;
-        border-radius: 0;
+        padding-top: 8%;
     }
 
     h1 {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     p {
-        font-size: 18px;
+        font-size: 16px;
         margin: 3px 0;
     }
 
     .cat {
-        width: 30vw;
-        max-width: 120px;
+        width: 80px;
     }
 
     .letter-window.final .cat {
-        width: 25vw;
-        max-width: 100px;
+        width: 65px;
     }
 
     .buttons {
@@ -247,11 +241,11 @@ display: inline-block;
     .btn,
     .yes-btn,
     .no-btn {
-        width: 60px;
+        width: 55px;
     }
 
     .final-text {
-        font-size: 13px;
-        padding: 6px 10px;
+        font-size: 11px;
+        padding: 5px 8px;
     }
 }
