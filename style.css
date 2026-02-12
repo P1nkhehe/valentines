@@ -140,3 +140,91 @@ display: inline-block;
     background-color: rgba(255,240,240,0.5);
     border-radius: 12px;
 }
+
+/* Mobile Responsive Styles */
+@media screen and (max-width: 768px) {
+    #envelope {
+        width: 150px;
+    }
+
+    .letter-window {
+        width: 95vw;
+        padding-top: 120px;
+        padding: 15px 15px 0 15px;
+        padding-top: 120px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 28px;
+    }
+
+    .cat {
+        width: 180px;
+    }
+
+    .letter-window.final .cat {
+        width: 130px;
+    }
+
+    .buttons {
+        gap: 20px;
+    }
+
+    .btn,
+    .yes-btn,
+    .no-btn {
+        width: 90px;
+    }
+
+    .final-text {
+        font-size: 18px;
+        padding: 8px 15px;
+    }
+}
+
+/* Small phones */
+@media screen and (max-width: 480px) {
+    #envelope {
+        width: 120px;
+    }
+
+    .letter-window {
+        width: 98vw;
+        padding-top: 80px;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 22px;
+    }
+
+    .cat {
+        width: 140px;
+    }
+
+    .letter-window.final .cat {
+        width: 100px;
+    }
+
+    .buttons {
+        gap: 15px;
+    }
+
+    .btn,
+    .yes-btn,
+    .no-btn {
+        width: 70px;
+    }
+
+    .final-text {
+        font-size: 14px;
+        padding: 6px 12px;
+    }
+}
